@@ -31,7 +31,7 @@ function create(){
     ///
     this.pajaro.setScale(2)
     this.pajaro.flipX=false;
-    this.pajaro.setOrigin(0);
+    this.pajaro.setOrigin(-0.8);
     ///
 
     /*
@@ -59,4 +59,3 @@ function update(time, delta){
         this.pajaro.x--;
     }
 }
-document.write("b");
